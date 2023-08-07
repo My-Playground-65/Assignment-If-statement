@@ -159,6 +159,30 @@ public class Assignmnt {
                                             s3 = fail;
                                         }
 
+
+                                        //!OUTPUT FOR STUDENT RESULTS
+
+                                        final String BLUE = "\033[34m";
+                                        final String BOLD = "\033[1m";
+
+                                        String line = "-------------------------------------";
+                                        System.out.println(line);
+                                        System.out.printf("|  Name:%s%s%-28s%s| \n",BOLD,BLUE,upperName,DEFAULT);
+                                        System.out.printf("|  Age : %s%s%s years old %15s \n",RED,age,DEFAULT,"|");
+                                        System.out.printf("|  Status : %s %18s \n",status,"|");
+                                        System.out.printf("|  Total : %.2f %11s %.2f %s \n",totalMarks,"AVG:",averageMark,"|");
+
+                                        System.out.println(line);
+
+                                        System.out.printf("| %-10s| %-10s| %-10s| \n", "Subject","Marks(%)","Status");
+                                        System.out.println(line);
+
+                                        System.out.printf("| SE-%03d    | %-10.2f| %-10s    | \n",Integer.valueOf(sub1.substring(3)),marks1,s1);
+                                        System.out.printf("| SE-%03d    | %-10.2f| %-10s    | \n",Integer.valueOf(sub2.substring(3)),marks2,s2);
+                                        System.out.printf("| SE-%03d    | %-10.2f| %-10s    | \n",Integer.valueOf(sub3.substring(3)),marks3,s3);
+                                        System.out.println(line);
+
+
                                        
 
 
