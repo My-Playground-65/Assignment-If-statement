@@ -167,10 +167,10 @@ public class Assignmnt {
 
                                         String line = "-------------------------------------";
                                         System.out.println(line);
-                                        System.out.printf("|  Name:%s%s%-28s%s| \n",BOLD,BLUE,upperName,DEFAULT);
-                                        System.out.printf("|  Age : %s%s%s years old %15s \n",RED,age,DEFAULT,"|");
-                                        System.out.printf("|  Status : %s %18s \n",status,"|");
-                                        System.out.printf("|  Total : %.2f %11s %.2f %s \n",totalMarks,"AVG:",averageMark,"|");
+                                        System.out.printf("| Name:%s%s%-29s%s| \n",BOLD,BLUE,upperName,DEFAULT);
+                                        System.out.printf("| Age : %s%s%s years old %16s \n",RED,age,DEFAULT,"|");
+                                        System.out.printf("| Status : %s %19s \n",status,"|");
+                                        System.out.printf("| Total : %.2f %12s %.2f %s \n",totalMarks,"AVG:",averageMark,"|");
 
                                         System.out.println(line);
 
